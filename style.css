@@ -1,0 +1,52 @@
+** {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+.box {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.box h1 {
+  color: rgb(39, 39, 39);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-decoration: dotted;
+}
+.dqoute h1 {
+  font-style: italic;
+}
+.auth p {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-q {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-q {
+  margin: 10px;
+}
+.new-q button, 
+.share-q button {
+  background-color: aquamarine;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 4px;
+}
+.share-q button a {
+  text-decoration: none;
+}
+#qoute::before, #qoute::after {
+    content: ' " ';
+} 
